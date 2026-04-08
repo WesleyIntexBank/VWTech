@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+  <rect width="400" height="200" fill="#0d1117"/>
+  <ellipse cx="200" cy="100" rx="180" ry="90" fill="#ec489908"/>
+
+  <!-- Left panel - product grid -->
+  <rect x="12" y="10" width="220" height="180" rx="12" fill="#18181b" stroke="#ec489920" stroke-width="1"/>
+
+  <!-- Header -->
+  <rect x="12" y="10" width="220" height="30" rx="12" fill="#ec489915"/>
+  <text x="30" y="29" fill="#ec4899" font-family="Arial,sans-serif" font-size="10" font-weight="bold">ModaStyle</text>
+  <rect x="180" y="16" width="40" height="18" rx="9" fill="#ec489925"/>
+  <text x="200" y="28" fill="#ec4899" font-family="Arial,sans-serif" font-size="8" text-anchor="middle">Filtrar</text>
+
+  <!-- Search bar -->
+  <rect x="20" y="46" width="204" height="16" rx="8" fill="#27272a"/>
+  <text x="30" y="57" fill="#52525b" font-family="Arial,sans-serif" font-size="7">Buscar produto...</text>
+
+  <!-- Product 1 -->
+  <rect x="20" y="68" width="96" height="76" rx="8" fill="#1c1c1f"/>
+  <rect x="20" y="68" width="96" height="50" rx="8" fill="#ec489920"/>
+  <text x="68" y="96" font-family="Arial,sans-serif" font-size="28" text-anchor="middle">&#x1F455;</text>
+  <text x="68" y="126" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="7" font-weight="bold" text-anchor="middle">Camiseta Linen</text>
+  <text x="68" y="138" fill="#ec4899" font-family="Arial,sans-serif" font-size="8" font-weight="bold" text-anchor="middle">R$ 89,90</text>
+
+  <!-- Product 2 -->
+  <rect x="124" y="68" width="96" height="76" rx="8" fill="#1c1c1f"/>
+  <rect x="124" y="68" width="96" height="50" rx="8" fill="#8b5cf620"/>
+  <text x="172" y="96" font-family="Arial,sans-serif" font-size="28" text-anchor="middle">&#x1F457;</text>
+  <text x="172" y="126" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="7" font-weight="bold" text-anchor="middle">Vestido Floral</text>
+  <text x="172" y="138" fill="#ec4899" font-family="Arial,sans-serif" font-size="8" font-weight="bold" text-anchor="middle">R$ 149,90</text>
+
+  <!-- Product 3 -->
+  <rect x="20" y="150" width="96" height="34" rx="8" fill="#1c1c1f"/>
+  <text x="68" y="161" font-family="Arial,sans-serif" font-size="14" text-anchor="middle">&#x1F456;</text>
+  <text x="68" y="176" fill="#ec4899" font-family="Arial,sans-serif" font-size="8" font-weight="bold" text-anchor="middle">R$ 199,90</text>
+
+  <!-- Product 4 -->
+  <rect x="124" y="150" width="96" height="34" rx="8" fill="#1c1c1f"/>
+  <text x="172" y="161" font-family="Arial,sans-serif" font-size="14" text-anchor="middle">&#x1F9E5;</text>
+  <text x="172" y="176" fill="#ec4899" font-family="Arial,sans-serif" font-size="8" font-weight="bold" text-anchor="middle">R$ 259,90</text>
+
+  <!-- Right panel - product detail -->
+  <rect x="244" y="10" width="144" height="180" rx="12" fill="#18181b" stroke="#ec489920" stroke-width="1"/>
+
+  <!-- Product image -->
+  <rect x="252" y="18" width="128" height="80" rx="8" fill="#ec489918"/>
+  <text x="316" y="65" font-family="Arial,sans-serif" font-size="40" text-anchor="middle">&#x1F455;</text>
+
+  <!-- Product info -->
+  <text x="252" y="116" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="9" font-weight="bold">Camiseta Oversized Linen</text>
+  <text x="252" y="128" fill="#64748b" font-family="Arial,sans-serif" font-size="7">Colecao Verao 2025</text>
+
+  <!-- Size selector -->
+  <text x="252" y="142" fill="#94a3b8" font-family="Arial,sans-serif" font-size="7">Tamanho:</text>
+  <rect x="252" y="146" width="16" height="14" rx="4" fill="#27272a"/>
+  <text x="260" y="157" fill="#94a3b8" font-family="Arial,sans-serif" font-size="7" text-anchor="middle">P</text>
+  <rect x="274" y="146" width="16" height="14" rx="4" fill="#ec4899"/>
+  <text x="282" y="157" fill="#fff" font-family="Arial,sans-serif" font-size="7" text-anchor="middle">M</text>
+  <rect x="296" y="146" width="16" height="14" rx="4" fill="#27272a"/>
+  <text x="304" y="157" fill="#94a3b8" font-family="Arial,sans-serif" font-size="7" text-anchor="middle">G</text>
+  <rect x="318" y="146" width="16" height="14" rx="4" fill="#27272a"/>
+  <text x="326" y="157" fill="#94a3b8" font-family="Arial,sans-serif" font-size="7" text-anchor="middle">GG</text>
+
+  <!-- Price and cart -->
+  <text x="252" y="174" fill="#ec4899" font-family="Arial,sans-serif" font-size="14" font-weight="bold">R$ 89,90</text>
+  <rect x="310" y="162" width="72" height="20" rx="8" fill="#ec4899"/>
+  <text x="346" y="176" fill="#fff" font-family="Arial,sans-serif" font-size="8" font-weight="bold" text-anchor="middle">+ Carrinho</text>
+
+  <!-- Rating -->
+  <text x="252" y="186" fill="#f59e0b" font-family="Arial,sans-serif" font-size="9">&#9733;&#9733;&#9733;&#9733;&#9733;</text>
+  <text x="302" y="186" fill="#64748b" font-family="Arial,sans-serif" font-size="7">(124 avaliações)</text>
+</svg>

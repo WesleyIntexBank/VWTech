@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+  <defs>
+    <linearGradient id="bgDev" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117"/>
+      <stop offset="100%" style="stop-color:#071a1a"/>
+    </linearGradient>
+    <linearGradient id="pipeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#06b6d4"/>
+      <stop offset="100%" style="stop-color:#0891b2"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="200" fill="url(#bgDev)"/>
+  <ellipse cx="200" cy="100" rx="190" ry="90" fill="#06b6d405"/>
+
+  <!-- Title -->
+  <text x="200" y="18" fill="#06b6d4" font-family="Arial,sans-serif" font-size="10" font-weight="bold" text-anchor="middle">Pipeline CI/CD — Cloud &amp; DevOps</text>
+
+  <!-- === Pipeline stages === -->
+  <!-- Stage 1: Code -->
+  <rect x="12" y="28" width="68" height="64" rx="8" fill="#161b22" stroke="#06b6d430" stroke-width="1.5"/>
+  <!-- Code icon -->
+  <text x="46" y="52" font-family="Arial,sans-serif" font-size="18" text-anchor="middle">&#128187;</text>
+  <text x="46" y="70" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="8" font-weight="bold" text-anchor="middle">Codigo</text>
+  <rect x="22" y="74" width="48" height="10" rx="5" fill="#22c55e20"/>
+  <text x="46" y="82" fill="#22c55e" font-family="Arial,sans-serif" font-size="6" text-anchor="middle">Git Push</text>
+
+  <!-- Arrow 1 -->
+  <line x1="80" y1="60" x2="98" y2="60" stroke="#06b6d4" stroke-width="1.5"/>
+  <polygon points="98,56 106,60 98,64" fill="#06b6d4"/>
+
+  <!-- Stage 2: Build -->
+  <rect x="106" y="28" width="68" height="64" rx="8" fill="#161b22" stroke="#06b6d430" stroke-width="1.5"/>
+  <text x="140" y="52" font-family="Arial,sans-serif" font-size="18" text-anchor="middle">&#9881;&#65039;</text>
+  <text x="140" y="70" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="8" font-weight="bold" text-anchor="middle">Build</text>
+  <rect x="116" y="74" width="48" height="10" rx="5" fill="#f59e0b20"/>
+  <text x="140" y="82" fill="#f59e0b" font-family="Arial,sans-serif" font-size="6" text-anchor="middle">Docker Build</text>
+
+  <!-- Arrow 2 -->
+  <line x1="174" y1="60" x2="192" y2="60" stroke="#06b6d4" stroke-width="1.5"/>
+  <polygon points="192,56 200,60 192,64" fill="#06b6d4"/>
+
+  <!-- Stage 3: Test -->
+  <rect x="200" y="28" width="68" height="64" rx="8" fill="#161b22" stroke="#06b6d430" stroke-width="1.5"/>
+  <text x="234" y="52" font-family="Arial,sans-serif" font-size="18" text-anchor="middle">&#9989;</text>
+  <text x="234" y="70" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="8" font-weight="bold" text-anchor="middle">Testes</text>
+  <rect x="210" y="74" width="48" height="10" rx="5" fill="#22c55e20"/>
+  <text x="234" y="82" fill="#22c55e" font-family="Arial,sans-serif" font-size="6" text-anchor="middle">Jest / Pytest</text>
+
+  <!-- Arrow 3 -->
+  <line x1="268" y1="60" x2="286" y2="60" stroke="#06b6d4" stroke-width="1.5"/>
+  <polygon points="286,56 294,60 286,64" fill="#06b6d4"/>
+
+  <!-- Stage 4: Deploy -->
+  <rect x="294" y="28" width="94" height="64" rx="8" fill="#06b6d415" stroke="#06b6d450" stroke-width="1.5"/>
+  <text x="341" y="52" font-family="Arial,sans-serif" font-size="18" text-anchor="middle">&#9729;&#65039;</text>
+  <text x="341" y="70" fill="#06b6d4" font-family="Arial,sans-serif" font-size="8" font-weight="bold" text-anchor="middle">Deploy</text>
+  <rect x="304" y="74" width="74" height="10" rx="5" fill="#06b6d420"/>
+  <text x="341" y="82" fill="#06b6d4" font-family="Arial,sans-serif" font-size="6" text-anchor="middle">Azure / AWS / GCP</text>
+
+  <!-- Progress bar -->
+  <rect x="12" y="102" width="376" height="8" rx="4" fill="#1e293b"/>
+  <rect x="12" y="102" width="340" height="8" rx="4" fill="url(#pipeGrad)"/>
+  <text x="380" y="110" fill="#06b6d4" font-family="Arial,sans-serif" font-size="7" font-weight="bold" text-anchor="end">98%</text>
+
+  <!-- Infra section -->
+  <rect x="12" y="118" width="180" height="72" rx="8" fill="#161b22" stroke="#06b6d420" stroke-width="1"/>
+  <text x="102" y="133" fill="#06b6d4" font-family="Arial,sans-serif" font-size="8" font-weight="bold" text-anchor="middle">Infraestrutura como Codigo</text>
+
+  <!-- Terraform / K8s -->
+  <rect x="20" y="138" width="50" height="22" rx="6" fill="#7b3ff215"/>
+  <text x="45" y="148" fill="#7b3ff2" font-family="Arial,sans-serif" font-size="7" font-weight="bold" text-anchor="middle">Terraform</text>
+  <text x="45" y="158" fill="#64748b" font-family="Arial,sans-serif" font-size="6" text-anchor="middle">IaC</text>
+
+  <rect x="76" y="138" width="50" height="22" rx="6" fill="#326ce515"/>
+  <text x="101" y="148" fill="#326ce5" font-family="Arial,sans-serif" font-size="7" font-weight="bold" text-anchor="middle">Kubernetes</text>
+  <text x="101" y="158" fill="#64748b" font-family="Arial,sans-serif" font-size="6" text-anchor="middle">Orquestra</text>
+
+  <rect x="132" y="138" width="52" height="22" rx="6" fill="#06b6d415"/>
+  <text x="158" y="148" fill="#06b6d4" font-family="Arial,sans-serif" font-size="7" font-weight="bold" text-anchor="middle">Helm Charts</text>
+  <text x="158" y="158" fill="#64748b" font-family="Arial,sans-serif" font-size="6" text-anchor="middle">Deploy</text>
+
+  <!-- Monitoring row -->
+  <text x="20" y="176" fill="#64748b" font-family="Arial,sans-serif" font-size="6">Monitoramento:</text>
+  <text x="88" y="176" fill="#22c55e" font-family="Arial,sans-serif" font-size="6">Prometheus · Grafana · AlertManager</text>
+
+  <!-- Metrics section -->
+  <rect x="204" y="118" width="184" height="72" rx="8" fill="#161b22" stroke="#06b6d420" stroke-width="1"/>
+  <text x="296" y="133" fill="#06b6d4" font-family="Arial,sans-serif" font-size="8" font-weight="bold" text-anchor="middle">Metricas do Sistema</text>
+
+  <!-- Uptime -->
+  <text x="216" y="150" fill="#64748b" font-family="Arial,sans-serif" font-size="7">Uptime SLA</text>
+  <rect x="266" y="142" width="110" height="10" rx="5" fill="#1e293b"/>
+  <rect x="266" y="142" width="107" height="10" rx="5" fill="#22c55e60"/>
+  <text x="376" y="150" fill="#22c55e" font-family="Arial,sans-serif" font-size="7" font-weight="bold" text-anchor="end">99,97%</text>
+
+  <!-- Response time -->
+  <text x="216" y="164" fill="#64748b" font-family="Arial,sans-serif" font-size="7">Tempo Resposta</text>
+  <rect x="276" y="156" width="100" height="10" rx="5" fill="#1e293b"/>
+  <rect x="276" y="156" width="45" height="10" rx="5" fill="#06b6d460"/>
+  <text x="376" y="164" fill="#06b6d4" font-family="Arial,sans-serif" font-size="7" font-weight="bold" text-anchor="end">142ms</text>
+
+  <!-- Deploy frequency -->
+  <text x="216" y="178" fill="#64748b" font-family="Arial,sans-serif" font-size="7">Deploys/Dia</text>
+  <rect x="266" y="170" width="110" height="10" rx="5" fill="#1e293b"/>
+  <rect x="266" y="170" width="70" height="10" rx="5" fill="#8b5cf660"/>
+  <text x="376" y="178" fill="#8b5cf6" font-family="Arial,sans-serif" font-size="7" font-weight="bold" text-anchor="end">12x/dia</text>
+
+  <!-- Bottom bar -->
+  <rect x="12" y="193" width="376" height="5" rx="2" fill="#06b6d415"/>
+  <rect x="12" y="193" width="340" height="5" rx="2" fill="#06b6d4"/>
+</svg>

@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+  <rect width="400" height="200" fill="#0d1117"/>
+  <ellipse cx="200" cy="100" rx="180" ry="85" fill="#6366f108"/>
+
+  <!-- Left side - avatar and info -->
+  <rect x="12" y="8" width="130" height="184" rx="10" fill="#161b22" stroke="#6366f120" stroke-width="1"/>
+
+  <!-- Avatar circle -->
+  <circle cx="77" cy="52" r="28" fill="#6366f120" stroke="#6366f140" stroke-width="1.5"/>
+  <circle cx="77" cy="44" r="12" fill="#6366f160"/>
+  <ellipse cx="77" cy="72" rx="18" ry="10" fill="#6366f160"/>
+
+  <text x="77" y="90" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="9" font-weight="bold" text-anchor="middle">Maria Santos</text>
+  <text x="77" y="102" fill="#64748b" font-family="Arial,sans-serif" font-size="7" text-anchor="middle">Cliente Premium</text>
+
+  <rect x="44" y="108" width="66" height="12" rx="6" fill="#6366f125"/>
+  <text x="77" y="117" fill="#6366f1" font-family="Arial,sans-serif" font-size="7" text-anchor="middle">Ativo</text>
+
+  <!-- Quick info -->
+  <line x1="22" y1="128" x2="130" y2="128" stroke="#ffffff08" stroke-width="1"/>
+
+  <text x="22" y="142" fill="#64748b" font-family="Arial,sans-serif" font-size="7">ID Cliente</text>
+  <text x="128" y="142" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="7" text-anchor="end">#CLI-2847</text>
+
+  <text x="22" y="156" fill="#64748b" font-family="Arial,sans-serif" font-size="7">Desde</text>
+  <text x="128" y="156" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="7" text-anchor="end">Jan/2022</text>
+
+  <text x="22" y="170" fill="#64748b" font-family="Arial,sans-serif" font-size="7">Pedidos</text>
+  <text x="128" y="170" fill="#6366f1" font-family="Arial,sans-serif" font-size="7" text-anchor="end">47</text>
+
+  <text x="22" y="184" fill="#64748b" font-family="Arial,sans-serif" font-size="7">Total gasto</text>
+  <text x="128" y="184" fill="#6366f1" font-family="Arial,sans-serif" font-size="7" text-anchor="end">R$ 12.840</text>
+
+  <!-- Right side - form -->
+  <rect x="154" y="8" width="234" height="184" rx="10" fill="#161b22" stroke="#6366f115" stroke-width="1"/>
+
+  <!-- Form header -->
+  <rect x="154" y="8" width="234" height="28" rx="10" fill="#6366f115"/>
+  <text x="271" y="26" fill="#6366f1" font-family="Arial,sans-serif" font-size="10" font-weight="bold" text-anchor="middle">Cadastro de Cliente</text>
+
+  <!-- Row 1: Nome e Sobrenome -->
+  <text x="164" y="50" fill="#64748b" font-family="Arial,sans-serif" font-size="7">Nome</text>
+  <rect x="164" y="54" width="100" height="16" rx="4" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="170" y="65" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="7">Maria</text>
+
+  <text x="274" y="50" fill="#64748b" font-family="Arial,sans-serif" font-size="7">Sobrenome</text>
+  <rect x="274" y="54" width="100" height="16" rx="4" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="280" y="65" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="7">Santos</text>
+
+  <!-- Row 2: Email -->
+  <text x="164" y="84" fill="#64748b" font-family="Arial,sans-serif" font-size="7">Email</text>
+  <rect x="164" y="88" width="210" height="16" rx="4" fill="#1e293b" stroke="#6366f140" stroke-width="1"/>
+  <text x="170" y="99" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="7">maria.santos@email.com</text>
+
+  <!-- Row 3: Telefone e CPF -->
+  <text x="164" y="118" fill="#64748b" font-family="Arial,sans-serif" font-size="7">Telefone</text>
+  <rect x="164" y="122" width="100" height="16" rx="4" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="170" y="133" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="7">(11) 99999-8888</text>
+
+  <text x="274" y="118" fill="#64748b" font-family="Arial,sans-serif" font-size="7">CPF</text>
+  <rect x="274" y="122" width="100" height="16" rx="4" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="280" y="133" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="7">***.***.***-**</text>
+
+  <!-- Row 4: Endereco -->
+  <text x="164" y="152" fill="#64748b" font-family="Arial,sans-serif" font-size="7">Endereco</text>
+  <rect x="164" y="156" width="210" height="16" rx="4" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="170" y="167" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="7">Rua das Flores, 123 - Sao Paulo/SP</text>
+
+  <!-- Buttons -->
+  <rect x="164" y="178" width="96" height="18" rx="6" fill="#6366f1"/>
+  <text x="212" y="190" fill="#fff" font-family="Arial,sans-serif" font-size="8" font-weight="bold" text-anchor="middle">Salvar Cliente</text>
+
+  <rect x="270" y="178" width="104" height="18" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="322" y="190" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8" text-anchor="middle">Cancelar</text>
+</svg>

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117"/>
+      <stop offset="100%" style="stop-color:#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="200" fill="url(#bg2)"/>
+
+  <!-- Top bar -->
+  <rect width="400" height="36" fill="#0f172a"/>
+  <rect x="12" y="11" width="10" height="10" rx="2" fill="#3b82f6"/>
+  <text x="28" y="22" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="11" font-weight="bold">Sistema de Transacoes</text>
+  <text x="350" y="22" fill="#64748b" font-family="Arial,sans-serif" font-size="9">Abr 2025</text>
+
+  <!-- Balance card -->
+  <rect x="12" y="44" width="180" height="60" rx="8" fill="#1e3a5f"/>
+  <text x="22" y="62" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Saldo Disponivel</text>
+  <text x="22" y="82" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="18" font-weight="bold">R$ 48.250</text>
+  <text x="22" y="96" fill="#22c55e" font-family="Arial,sans-serif" font-size="8">+R$ 3.200 este mes</text>
+
+  <!-- Mini chart on right -->
+  <rect x="204" y="44" width="184" height="60" rx="8" fill="#161b22" stroke="#ffffff0a" stroke-width="1"/>
+  <text x="214" y="60" fill="#64748b" font-family="Arial,sans-serif" font-size="8">Fluxo dos ultimos 7 dias</text>
+
+  <!-- Sparkline -->
+  <polyline points="214,95 240,88 260,92 282,78 304,83 326,72 348,68 370,75" fill="none" stroke="#3b82f6" stroke-width="2"/>
+  <polygon points="214,100 240,93 260,97 282,83 304,88 326,77 348,73 370,80 370,100" fill="#3b82f650" stroke="none"/>
+
+  <!-- Transactions list -->
+  <rect x="12" y="116" width="376" height="76" rx="6" fill="#161b22" stroke="#ffffff0a" stroke-width="1"/>
+  <text x="22" y="131" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8" font-weight="bold">ULTIMAS TRANSACOES</text>
+
+  <!-- Tx 1 - credit -->
+  <rect x="22" y="137" width="8" height="8" rx="4" fill="#22c55e"/>
+  <text x="36" y="145" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="8">Pagamento Cliente XYZ</text>
+  <text x="240" y="145" fill="#64748b" font-family="Arial,sans-serif" font-size="8">08/04/2025</text>
+  <text x="378" y="145" fill="#22c55e" font-family="Arial,sans-serif" font-size="8" font-weight="bold" text-anchor="end">+ R$ 5.400,00</text>
+
+  <!-- Separator -->
+  <line x1="22" y1="150" x2="378" y2="150" stroke="#ffffff08" stroke-width="1"/>
+
+  <!-- Tx 2 - debit -->
+  <rect x="22" y="154" width="8" height="8" rx="4" fill="#ef4444"/>
+  <text x="36" y="162" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="8">Fornecedor ABC Ltda</text>
+  <text x="240" y="162" fill="#64748b" font-family="Arial,sans-serif" font-size="8">07/04/2025</text>
+  <text x="378" y="162" fill="#ef4444" font-family="Arial,sans-serif" font-size="8" font-weight="bold" text-anchor="end">- R$ 1.200,00</text>
+
+  <!-- Separator -->
+  <line x1="22" y1="167" x2="378" y2="167" stroke="#ffffff08" stroke-width="1"/>
+
+  <!-- Tx 3 - credit -->
+  <rect x="22" y="171" width="8" height="8" rx="4" fill="#22c55e"/>
+  <text x="36" y="179" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="8">TED Recebido - Cliente MNO</text>
+  <text x="240" y="179" fill="#64748b" font-family="Arial,sans-serif" font-size="8">06/04/2025</text>
+  <text x="378" y="179" fill="#22c55e" font-family="Arial,sans-serif" font-size="8" font-weight="bold" text-anchor="end">+ R$ 8.900,00</text>
+
+  <!-- Separator -->
+  <line x1="22" y1="184" x2="378" y2="184" stroke="#ffffff08" stroke-width="1"/>
+
+  <!-- Tx 4 - debit -->
+  <rect x="22" y="188" width="8" height="8" rx="4" fill="#ef4444"/>
+  <text x="36" y="196" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="8">Folha de Pagamento - Abr</text>
+  <text x="240" y="196" fill="#64748b" font-family="Arial,sans-serif" font-size="8">05/04/2025</text>
+  <text x="378" y="196" fill="#ef4444" font-family="Arial,sans-serif" font-size="8" font-weight="bold" text-anchor="end">- R$ 22.000,00</text>
+</svg>

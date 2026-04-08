@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+  <rect width="400" height="200" fill="#0d1117"/>
+  <ellipse cx="200" cy="100" rx="180" ry="80" fill="#14b8a608"/>
+
+  <!-- Main document -->
+  <rect x="12" y="8" width="376" height="184" rx="10" fill="#161b22" stroke="#14b8a625" stroke-width="1"/>
+
+  <!-- Header -->
+  <rect x="12" y="8" width="376" height="42" rx="10" fill="#14b8a618"/>
+  <rect x="22" y="18" width="22" height="22" rx="6" fill="#14b8a6"/>
+  <text x="33" y="33" fill="#0d1117" font-family="Arial,sans-serif" font-size="11" font-weight="bold" text-anchor="middle">$</text>
+  <text x="52" y="26" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="11" font-weight="bold">Extrato de Transacoes</text>
+  <text x="52" y="39" fill="#64748b" font-family="Arial,sans-serif" font-size="8">Conta: 1234-5 | Ag: 0001 | Periodo: Mar/2025</text>
+  <text x="375" y="26" fill="#14b8a6" font-family="Arial,sans-serif" font-size="9" font-weight="bold" text-anchor="end">Saldo: R$ 48.250,00</text>
+  <text x="375" y="39" fill="#64748b" font-family="Arial,sans-serif" font-size="8" text-anchor="end">Atualizado: 08/04/2025</text>
+
+  <!-- Table header -->
+  <rect x="22" y="58" width="356" height="16" rx="4" fill="#14b8a610"/>
+  <text x="30" y="70" fill="#14b8a6" font-family="Arial,sans-serif" font-size="7" font-weight="bold">DATA</text>
+  <text x="90" y="70" fill="#14b8a6" font-family="Arial,sans-serif" font-size="7" font-weight="bold">DESCRICAO</text>
+  <text x="250" y="70" fill="#14b8a6" font-family="Arial,sans-serif" font-size="7" font-weight="bold">TIPO</text>
+  <text x="310" y="70" fill="#14b8a6" font-family="Arial,sans-serif" font-size="7" font-weight="bold">VALOR</text>
+  <text x="370" y="70" fill="#14b8a6" font-family="Arial,sans-serif" font-size="7" font-weight="bold" text-anchor="end">SALDO</text>
+
+  <!-- Rows -->
+  <!-- Row 1 -->
+  <line x1="22" y1="78" x2="378" y2="78" stroke="#ffffff06" stroke-width="1"/>
+  <text x="30" y="88" fill="#94a3b8" font-family="Arial,sans-serif" font-size="7">01/03/2025</text>
+  <text x="90" y="88" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="7">Salario - Empresa ABC</text>
+  <rect x="244" y="82" width="40" height="10" rx="5" fill="#22c55e25"/>
+  <text x="264" y="90" fill="#22c55e" font-family="Arial,sans-serif" font-size="7" text-anchor="middle">Credito</text>
+  <text x="310" y="88" fill="#22c55e" font-family="Arial,sans-serif" font-size="7" font-weight="bold">+ R$ 8.500,00</text>
+  <text x="370" y="88" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="7" text-anchor="end">R$ 42.750,00</text>
+
+  <!-- Row 2 -->
+  <rect x="22" y="92" width="356" height="16" fill="#ffffff03"/>
+  <text x="30" y="104" fill="#94a3b8" font-family="Arial,sans-serif" font-size="7">05/03/2025</text>
+  <text x="90" y="104" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="7">Aluguel - Imovel Res.</text>
+  <rect x="244" y="98" width="40" height="10" rx="5" fill="#ef444425"/>
+  <text x="264" y="106" fill="#ef4444" font-family="Arial,sans-serif" font-size="7" text-anchor="middle">Debito</text>
+  <text x="310" y="104" fill="#ef4444" font-family="Arial,sans-serif" font-size="7" font-weight="bold">- R$ 2.800,00</text>
+  <text x="370" y="104" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="7" text-anchor="end">R$ 39.950,00</text>
+
+  <!-- Row 3 -->
+  <text x="30" y="120" fill="#94a3b8" font-family="Arial,sans-serif" font-size="7">10/03/2025</text>
+  <text x="90" y="120" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="7">PIX Recebido - Joao Silva</text>
+  <rect x="244" y="114" width="40" height="10" rx="5" fill="#22c55e25"/>
+  <text x="264" y="122" fill="#22c55e" font-family="Arial,sans-serif" font-size="7" text-anchor="middle">Credito</text>
+  <text x="310" y="120" fill="#22c55e" font-family="Arial,sans-serif" font-size="7" font-weight="bold">+ R$ 1.200,00</text>
+  <text x="370" y="120" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="7" text-anchor="end">R$ 41.150,00</text>
+
+  <!-- Row 4 -->
+  <rect x="22" y="124" width="356" height="16" fill="#ffffff03"/>
+  <text x="30" y="136" fill="#94a3b8" font-family="Arial,sans-serif" font-size="7">15/03/2025</text>
+  <text x="90" y="136" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="7">Cartao Credito - Fatura</text>
+  <rect x="244" y="130" width="40" height="10" rx="5" fill="#ef444425"/>
+  <text x="264" y="138" fill="#ef4444" font-family="Arial,sans-serif" font-size="7" text-anchor="middle">Debito</text>
+  <text x="310" y="136" fill="#ef4444" font-family="Arial,sans-serif" font-size="7" font-weight="bold">- R$ 3.450,00</text>
+  <text x="370" y="136" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="7" text-anchor="end">R$ 37.700,00</text>
+
+  <!-- Row 5 -->
+  <text x="30" y="152" fill="#94a3b8" font-family="Arial,sans-serif" font-size="7">20/03/2025</text>
+  <text x="90" y="152" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="7">TED - Investimento CDB</text>
+  <rect x="244" y="146" width="40" height="10" rx="5" fill="#f59e0b25"/>
+  <text x="264" y="154" fill="#f59e0b" font-family="Arial,sans-serif" font-size="7" text-anchor="middle">Transfer.</text>
+  <text x="310" y="152" fill="#f59e0b" font-family="Arial,sans-serif" font-size="7" font-weight="bold">- R$ 5.000,00</text>
+  <text x="370" y="152" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="7" text-anchor="end">R$ 32.700,00</text>
+
+  <!-- Row 6 -->
+  <rect x="22" y="156" width="356" height="16" fill="#ffffff03"/>
+  <text x="30" y="168" fill="#94a3b8" font-family="Arial,sans-serif" font-size="7">31/03/2025</text>
+  <text x="90" y="168" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="7">Rendimento Poupanca</text>
+  <rect x="244" y="162" width="40" height="10" rx="5" fill="#22c55e25"/>
+  <text x="264" y="170" fill="#22c55e" font-family="Arial,sans-serif" font-size="7" text-anchor="middle">Credito</text>
+  <text x="310" y="168" fill="#22c55e" font-family="Arial,sans-serif" font-size="7" font-weight="bold">+ R$ 487,20</text>
+  <text x="370" y="168" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="7" text-anchor="end">R$ 33.187,20</text>
+
+  <!-- Footer -->
+  <line x1="22" y1="178" x2="378" y2="178" stroke="#14b8a625" stroke-width="1"/>
+  <text x="30" y="190" fill="#64748b" font-family="Arial,sans-serif" font-size="7">Total Creditos: R$ 10.187,20</text>
+  <text x="200" y="190" fill="#64748b" font-family="Arial,sans-serif" font-size="7" text-anchor="middle">Total Debitos: R$ 11.250,00</text>
+  <text x="378" y="190" fill="#14b8a6" font-family="Arial,sans-serif" font-size="8" font-weight="bold" text-anchor="end">Saldo Final: R$ 48.250,00</text>
+</svg>

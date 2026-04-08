@@ -29,7 +29,15 @@
       @for (project of filteredProjects; track project.title) {
         <div class="project-card card">
           <div class="project-thumb" [style.background]="'linear-gradient(135deg, ' + project.color + '20, ' + project.color + '08)'">
-            <div class="project-emoji" [style.color]="project.color">{{ project.emoji }}</div>
+            @if (project.image) {
+              <img
+                [src]="project.image"
+                [alt]="project.title"
+                class="project-img"
+              />
+            } @else {
+              <div class="project-emoji" [style.color]="project.color">{{ project.emoji }}</div>
+            }
             <div class="project-category-badge">{{ project.category }}</div>
           </div>
 
@@ -43,12 +51,7 @@
               }
             </div>
 
-            <a class="project-link">
-              Ver Case
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M7 17L17 7M17 7H7M17 7v10"/>
-              </svg>
-            </a>
+            
           </div>
         </div>
       }
