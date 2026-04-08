@@ -1,0 +1,51 @@
+<nav class="navbar" [class.scrolled]="isScrolled()">
+  <div class="container navbar-inner">
+
+    <!-- Logo -->
+    <a class="logo" (click)="scrollTo('#home')">
+      <div class="logo-icon">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+          <rect width="32" height="32" rx="8" fill="#1db954"/>
+          <path d="M8 20L14 10L18 17L22 13L26 20" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <span class="logo-text">Wevi<span class="accent">Tech</span></span>
+    </a>
+
+    <!-- Desktop Nav -->
+    <ul class="nav-links">
+      @for (link of navLinks; track link.href) {
+        <li>
+          <a (click)="scrollTo(link.href)" class="nav-link">{{ link.label }}</a>
+        </li>
+      }
+    </ul>
+
+    <!-- CTA -->
+    <div class="navbar-actions">
+      <button class="btn btn-primary" (click)="scrollTo('#contact')">
+        Fale Conosco
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M5 12h14M12 5l7 7-7 7"/>
+        </svg>
+      </button>
+
+      <!-- Mobile toggle -->
+      <button class="menu-toggle" (click)="toggleMenu()" [class.open]="mobileMenuOpen()">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" [class.open]="mobileMenuOpen()">
+    <ul>
+      @for (link of navLinks; track link.href) {
+        <li>
+          <a (click)="scrollTo(link.href)" class="mobile-nav-link">{{ link.label }}</a>
+        </li>
+      }
+    </ul>
+    <button class="btn btn-primary full" (click)="scrollTo('#contact')">Fale Conosco</button>
+  </div>
+</nav>

@@ -1,0 +1,78 @@
+<section class="about" id="about">
+  <div class="container about-grid">
+
+    <!-- Left: Visual -->
+    <div class="about-visual">
+      <div class="visual-card main-card">
+        <div class="card-header">
+          <span class="team-icon">👥</span>
+          <div>
+            <div class="card-title">Time WeviTech</div>
+            <div class="card-sub">Engenheiros de software sênior</div>
+          </div>
+        </div>
+        <div class="team-avatars">
+          @for (i of [1,2,3,4,5]; track i) {
+            <div class="avatar" [style.background]="'hsl(' + (i * 60) + ', 50%, 35%)'">
+              {{ ['WS', 'AL', 'MR', 'FP', 'JS'][i-1] }}
+            </div>
+          }
+          <div class="avatar-more">+12</div>
+        </div>
+        <div class="card-metric">
+          <span class="metric-num">8+</span>
+          <span class="metric-text">anos de mercado</span>
+        </div>
+      </div>
+
+      <div class="visual-card secondary-card">
+        <div class="process-steps">
+          @for (step of ['Discovery', 'Design', 'Dev', 'Deploy']; track step; let i = $index) {
+            <div class="process-step">
+              <div class="step-num">{{ i + 1 }}</div>
+              <span>{{ step }}</span>
+              @if (i < 3) {
+                <div class="step-line"></div>
+              }
+            </div>
+          }
+        </div>
+        <div class="process-label">Nosso Processo Ágil</div>
+      </div>
+    </div>
+
+    <!-- Right: Content -->
+    <div class="about-content">
+      <div class="section-tag">
+        <span class="dot"></span>
+        Sobre a WeviTech
+      </div>
+
+      <h2>Código que <span class="gradient-text">impulsiona</span> negócios reais</h2>
+
+      <p class="about-text">
+        Fundada por engenheiros apaixonados por tecnologia, a WeviTech nasceu da convicção de que
+        bom software transforma negócios. Combinamos expertise técnica profunda com entendimento
+        real das necessidades do mercado.
+      </p>
+
+      <p class="about-text">
+        Nossa equipe multidisciplinar é especializada em entregar projetos complexos dentro do
+        prazo, com arquitetura limpa, documentação completa e suporte contínuo pós-entrega.
+      </p>
+
+      <div class="values-grid">
+        @for (value of values; track value.title) {
+          <div class="value-item">
+            <div class="value-icon">{{ value.icon }}</div>
+            <div>
+              <h4>{{ value.title }}</h4>
+              <p>{{ value.desc }}</p>
+            </div>
+          </div>
+        }
+      </div>
+    </div>
+
+  </div>
+</section>

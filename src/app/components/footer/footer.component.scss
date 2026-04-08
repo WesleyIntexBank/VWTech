@@ -1,0 +1,153 @@
+.footer {
+  background: var(--dark-card);
+  border-top: 1px solid var(--dark-border);
+  padding-top: 80px;
+}
+
+.footer-top {
+  display: grid;
+  grid-template-columns: 1.8fr 1fr 1fr 1.2fr;
+  gap: 48px;
+  padding-bottom: 64px;
+  border-bottom: 1px solid var(--dark-border);
+}
+
+/* Brand */
+.footer-brand {
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    cursor: default;
+
+    span {
+      font-family: var(--font-display);
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: #fff;
+
+      .accent { color: var(--primary); }
+    }
+  }
+}
+
+.brand-desc {
+  font-size: 0.9rem;
+  color: var(--gray-500);
+  line-height: 1.7;
+  margin-bottom: 20px;
+  max-width: 280px;
+}
+
+.brand-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(29,185,84,0.08);
+  border: 1px solid rgba(29,185,84,0.2);
+  color: var(--primary);
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 6px 14px;
+  border-radius: 100px;
+
+  .dot {
+    width: 7px;
+    height: 7px;
+    background: var(--primary);
+    border-radius: 50%;
+    animation: pulse 2s infinite;
+  }
+}
+
+/* Cols */
+.footer-col {
+  h4 {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--gray-300);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 20px;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 24px;
+
+    li {
+      font-size: 0.88rem;
+      color: var(--gray-500);
+      transition: var(--transition-fast);
+    }
+
+    a {
+      cursor: pointer;
+      &:hover {
+        color: var(--primary);
+      }
+    }
+  }
+
+  .cta-btn {
+    font-size: 0.85rem;
+    padding: 10px 20px;
+  }
+}
+
+/* Bottom */
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 24px 0;
+
+  p {
+    font-size: 0.82rem;
+    color: var(--gray-600);
+  }
+}
+
+.legal-links {
+  display: flex;
+  gap: 24px;
+
+  a {
+    font-size: 0.82rem;
+    color: var(--gray-600);
+    cursor: pointer;
+    transition: var(--transition-fast);
+
+    &:hover {
+      color: var(--primary);
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .footer-top {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-top {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .legal-links {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+}

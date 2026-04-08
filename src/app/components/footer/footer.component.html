@@ -1,0 +1,67 @@
+<footer class="footer">
+  <div class="container">
+
+    <div class="footer-top">
+
+      <!-- Brand -->
+      <div class="footer-brand">
+        <div class="logo">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+            <rect width="32" height="32" rx="8" fill="#1db954"/>
+            <path d="M8 20L14 10L18 17L22 13L26 20" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <span>Wevi<span class="accent">Tech</span></span>
+        </div>
+        <p class="brand-desc">
+          Transformamos ideias em software de alta performance.
+          Seu parceiro tecnológico para crescer sem limites.
+        </p>
+        <div class="brand-tag">
+          <span class="dot"></span>
+          Disponível para novos projetos
+        </div>
+      </div>
+
+      <!-- Links -->
+      <div class="footer-col">
+        <h4>Serviços</h4>
+        <ul>
+          @for (link of links.services; track link) {
+            <li><a>{{ link }}</a></li>
+          }
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Empresa</h4>
+        <ul>
+          @for (link of links.company; track link) {
+            <li><a>{{ link }}</a></li>
+          }
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contato</h4>
+        <ul>
+          <li><a>+55 (11) 9 8050-5169</a></li>
+          <li>São Paulo, SP — Brasil</li>
+        </ul>
+        <button class="btn btn-outline cta-btn" (click)="scrollTo('#contact')">
+          Iniciar Projeto →
+        </button>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; {{ year }} WeviTech Soluções em Software. Todos os direitos reservados.</p>
+      <div class="legal-links">
+        @for (link of links.legal; track link) {
+          <a>{{ link }}</a>
+        }
+      </div>
+    </div>
+
+  </div>
+</footer>

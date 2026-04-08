@@ -1,0 +1,44 @@
+<section class="services" id="services">
+  <div class="container">
+
+    <div class="section-header">
+      <div class="section-tag">
+        <span class="dot"></span>
+        Nossos Serviços
+      </div>
+      <h2>O que a <span class="gradient-text">WeviTech</span> faz por você</h2>
+      <p class="section-subtitle">
+        Do planejamento à entrega, oferecemos soluções completas em software
+        para empresas de todos os portes.
+      </p>
+    </div>
+
+    <div class="services-grid">
+      @for (service of services; track service.title) {
+        <div class="service-card card" [class.featured]="service.featured">
+          @if (service.featured) {
+            <div class="featured-badge">Mais Procurado</div>
+          }
+
+          <div class="service-icon">{{ service.icon }}</div>
+
+          <h3 class="service-title">{{ service.title }}</h3>
+          <p class="service-desc">{{ service.description }}</p>
+
+          <div class="service-tags">
+            @for (tag of service.tags; track tag) {
+              <span class="tag">{{ tag }}</span>
+            }
+          </div>
+
+          <div class="service-arrow">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M7 17L17 7M17 7H7M17 7v10"/>
+            </svg>
+          </div>
+        </div>
+      }
+    </div>
+
+  </div>
+</section>
