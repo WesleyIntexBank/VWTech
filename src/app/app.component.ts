@@ -4,8 +4,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { HeroComponent } from './components/hero/hero.component';
 import { ServicesComponent } from './components/services/services.component';
 import { AboutComponent } from './components/about/about.component';
-import { StatsComponent } from './components/stats/stats.component';
-import { PortfolioComponent } from './components/portfolio/portfolio.component';
+// import { StatsComponent } from './components/stats/stats.component';
+// import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ContactService } from './components/contact/contact.service';
@@ -19,8 +19,8 @@ import { ContactService } from './components/contact/contact.service';
     HeroComponent,
     ServicesComponent,
     AboutComponent,
-    StatsComponent,
-    PortfolioComponent,
+    // StatsComponent,
+    // PortfolioComponent,
     ContactComponent,
     FooterComponent
   ],
@@ -33,8 +33,8 @@ import { ContactService } from './components/contact/contact.service';
       <app-hero></app-hero>
       <app-services></app-services>
       <app-about></app-about>
-      <app-stats></app-stats>
-      <app-portfolio></app-portfolio>
+      <!-- <app-stats></app-stats> -->
+      <!-- <app-portfolio></app-portfolio> -->
       <app-contact></app-contact>
     </main>
     <app-footer></app-footer>

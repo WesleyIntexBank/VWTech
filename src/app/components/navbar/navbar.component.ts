@@ -16,7 +16,7 @@ export class NavbarComponent {
     { label: 'Início',    href: '#home' },
     { label: 'Serviços',  href: '#services' },
     { label: 'Sobre',     href: '#about' },
-    { label: 'Projetos',  href: '#portfolio' },
+    // { label: 'Projetos',  href: '#portfolio' },
     { label: 'Contato',   href: '#contact' }
   ];
 
